@@ -48,3 +48,19 @@ table {
 }
 
 /* CSS RESET END  -------------------------------------------------------- */
+
+/* Code Start------------------------------------------------------------- */
+
+/* Colour pallet Preset */
+:root{
+    --dark-bg: #1b0b26;
+    --light-bg: #eceaf9;
+    --vibrant:#8B88F2;
+}
+/* Default Content Styling */
+body{
+    background-color: var(--vibrant);
+}
+h1{
+    color: var(--light-bg);
+}
