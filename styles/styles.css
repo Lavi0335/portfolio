@@ -60,6 +60,8 @@ table {
     --dark-bg: #1b0b26;
     --light-bg: #eceaf9;
     --vibrant:#8B88F2;
+	--spacing20mobile: 1.25em;
+	--spacing40web: 2.5em;
 }
 /* Default Content Styling */
 body{
@@ -92,9 +94,14 @@ header{
 	justify-content: space-between;
 }
 .logo{
-	padding-right: .5em;
+	padding-right: .625em;
+	padding-left: var(--spacingtwenty);
 }
 span{
 	display: flex;
 	align-items: center;
+}
+/* Default consisten spacing and padding for content */
+article{
+	padding: var(--spacing20mobile);
 }
