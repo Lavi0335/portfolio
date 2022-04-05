@@ -66,7 +66,7 @@ table {
 }
 /* Default Content Styling */
 body{
-    background-color: var(--vibrant);
+    background-color: var(--light-bg);
 	margin: 0 auto;
 }
 /* Defining font size properties */
@@ -103,7 +103,11 @@ span{
 	display: flex;
 	align-items: center;
 }
-/* Default consisten spacing and padding for content */
+/* Default consistent spacing and padding for content */
 article{
 	padding: var(--spacing20mobile);
+}
+/* footer defaults */
+footer{
+	background-color: var(--dark-bg);
 }
