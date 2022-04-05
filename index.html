@@ -42,11 +42,34 @@
             <p>For the thoughts that words just can express, visuals can display.</p>
             <p>My goal is to bring those ideas to life, and spread powerful messages through them, so together let us speak visually!</p>
         </div>
+     </article>
        <!-- Add image to accompany header here -->
         <picture>
-            
+            <source srcset="images/light_strokes_960.jpg,
+                            images/light_strokes_1920.jpg 1.5x,
+                            images/light_strokes_2880.jpg 2x"
+                    media="(min-width: 960px)"/>
+
+            <source srcset="images/light_strokes_720.jpg,
+                            images/light_strokes_1440.jpg 1.5x
+                            images/light_strokes_2160.jpg 2x"
+                    media="(min-width: 720px)"/>
+
+          <source srcset="images/light_strokes_480.jpg,
+                          images/light_strokes_960.jpg 1.5x,
+                          images/light_strokes_1440.jpg 2x" 
+            media="(min-width: 480px)"/>
+          <source srcset="images/light_strokes_320.jpg,
+                          images/light_strokes_320.jpg 1.5x,
+                          images/light_strokes_640.jpg 2x,
+                          images/light_strokes_960.jpg 3x"
+              media="(min-width: 320px)" />
+
+        <img class="orig-img"
+        src="images/light_strokes.JPG"
+        alt="blue lights in a wave form">
         </picture>
-    </article>
+   
     <!-- Article containing rest of the content -->
     <article>
       <h2>Gallery Highlights</h2>
