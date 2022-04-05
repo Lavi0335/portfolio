@@ -88,6 +88,15 @@ h3{
 p{
 	font-family:'Ropa Sans', sans-serif;
 }
+/* Button styling */
+button{
+	background-color: var(--dark-bg);
+	font-family:'Bebas Neue', cursive;
+	color: var(--light-bg);
+	border: none;
+	font-size: 2.5em;
+	padding: var(--spacing10between);
+}
 /* Class specific CSS */
 .vibrant{
 	background-color: var(--vibrant);
