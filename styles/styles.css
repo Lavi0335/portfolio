@@ -60,6 +60,7 @@ table {
     --dark-bg: #1b0b26;
     --light-bg: #eceaf9;
     --vibrant:#8B88F2;
+	--spacing10between: .625em;
 	--spacing20mobile: 1.25em;
 	--spacing40web: 2.5em;
 }
@@ -92,9 +93,10 @@ header{
 	background-color: var(--dark-bg);
 	display: flex;
 	justify-content: space-between;
+	padding: var(--spacing10between);
 }
 .logo{
-	padding-right: .625em;
+	padding-right: var(--spacing10between);
 	padding-left: var(--spacingtwenty);
 }
 span{
