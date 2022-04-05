@@ -88,6 +88,10 @@ h3{
 p{
 	font-family:'Ropa Sans', sans-serif;
 }
+/* Class specific CSS */
+.vibrant{
+	background-color: var(--vibrant);
+}
 /* Header properties */
 header{
 	background-color: var(--dark-bg);
