@@ -32,17 +32,37 @@
             <a href="terms_and_conditions.html">Terms and Conditions</a>
         </nav>    
     </header>
-    <article class="vibrant">
-        <div>
+    <div class="vibrant">
+        <div class="space">
         <h2>Who am I?</h2>
         <p>My name's Lauren Lavictoire, and I'm an ambitious graphic designer who believes that all ideas can be expressed in a visual form.</p>
         <p>I seek to learn and envision astounding projects, and with some hard work and collaboration, we can make it a reality!</p>
         </div>
          <!-- Add image to accompany header here -->
          <picture>
-            
+            <source srcset="images/branding_960.jpg,
+            images/branding_1920.jpg 1.5x,
+            images/branding_2880.jpg 2x"
+    media="(min-width: 960px)"/>
+
+        <source srcset="images/branding_720.jpg,
+            images/branding_1440.jpg 1.5x
+            images/branding_2160.jpg 2x"
+            media="(min-width: 720px)"/>
+
+        <source srcset="images/branding_480.jpg,
+          images/branding_960.jpg 1.5x,
+          images/branding_1440.jpg 2x" 
+          media="(min-width: 480px)"/>
+        <source srcset="images/branding_320.jpg,
+          images/branding_320.jpg 1.5x,
+          images/branding_640.jpg 2x,
+          images/branding_960.jpg 3x"
+          media="(min-width: 320px)" /> 
+        <img class="orig img"
+            src="images/branding_header.png">
         </picture>
-    </article>
+    </div>
     <article>
         <!-- Profile picture of myself -->
          <picture>
