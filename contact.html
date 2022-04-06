@@ -43,7 +43,30 @@
             <label for="message">Message</label>
             <textarea id="message">Your Message</textarea>
         </form>
-        <picture></picture>
+        <!-- decorative image -->
+        <picture>
+            <source srcset="images/bg_illustration_960.jpg,
+            images/bg_illustration_1920.jpg 1.5x,
+            images/bg_illustration_2880.jpg 2x"
+           media="(min-width: 960px)"/>
+  
+          <source srcset="images/bg_illustration_720.jpg,
+            images/agenda_1440.jpg 1.5x
+            images/agenda_2160.jpg 2x"
+           media="(min-width: 720px)"/>
+  
+          <source srcset="images/bg_illustration_480.jpg,
+               images/bg_illustration_960.jpg 1.5x,
+               images/bg_illustration_1440.jpg 2x" 
+          media="(min-width: 480px)"/>
+          <source srcset="images/bg_illustration_320.jpg,
+                images/bg_illustration_640.jpg 1.5x,
+                images/bg_illustration_960.jpg 2x"
+             media="(min-width: 320px)" />
+        <img class="orig-img"
+             src="images/bg_illustration"
+             alt="Illustration of a stary night and a field">
+        </picture>
     </article>
     <footer>
         <p class="light">©Lavictoire Arts 2022</p>
