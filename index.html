@@ -34,15 +34,15 @@
             <a href="terms_and_conditions.html">Terms and Conditions</a>
         </nav>    
     </header>
-    <article class="vibrant">
+    <div class="vibrant">
         <!-- contained content within the main header -->
-        <div>
+        <div class="space">
             <h2>Speak Visually</h2>
             <p>Hello there, and Welcome to Lavictoire Arts!</p>
             <p>For the thoughts that words just can express, visuals can display.</p>
             <p>My goal is to bring those ideas to life, and spread powerful messages through them, so together let us speak visually!</p>
         </div>
-     </article>
+     
        <!-- Add image to accompany header here -->
         <picture>
             <source srcset="images/light_strokes_960.jpg,
@@ -69,23 +69,92 @@
         src="images/light_strokes.JPG"
         alt="blue lights in a wave form">
         </picture>
-   
+    </div>
     <!-- Article containing rest of the content -->
     <article>
       <h2>Gallery Highlights</h2>
       <!-- Images with titles below them -->
       <div class="centre">
-      <picture></picture>    
+      <picture>
+          <source srcset="images/blues_960.jpg,
+          images/blues_1920.jpg 1.5x,
+          images/blues_2880.jpg 2x"
+         media="(min-width: 960px)"/>
+
+        <source srcset="images/blues_720.jpg,
+          images/blues_1440.jpg 1.5x
+          images/blues_2160.jpg 2x"
+         media="(min-width: 720px)"/>
+
+        <source srcset="images/blues_480.jpg,
+             images/blues_960.jpg 1.5x,
+             images/blues_1440.jpg 2x" 
+        media="(min-width: 480px)"/>
+        <source srcset="images/blues_320.jpg,
+              images/blues_320.jpg 1.5x,
+              images/blues_640.jpg 2x,
+              images/blues_960.jpg 3x"
+           media="(min-width: 320px)" />
+        <img class="orig-img"
+        src="images/blues.JPG"
+        alt="blue lights flickering in front of a black grid">
+      </picture>    
       <h3>Photography</h3>
       <p>Capturing grand moments, and sights with a single snap of a photo.</p>
     </div> 
     <div class="centre">
-      <picture></picture>   
+      <picture>
+        <source srcset="images/draggel_960.jpg,
+        images/draggel_1920.jpg 1.5x,
+        images/draggel_2400.jpg 2x"
+       media="(min-width: 960px)"/>
+
+      <source srcset="images/draggel_800.jpg,
+        images/draggel_1440.jpg 1.5x
+        images/draggel_1920.jpg 2x"
+       media="(min-width: 720px)"/>
+
+      <source srcset="images/draggel_480.jpg,
+           images/draggel_960.jpg 1.5x,
+           images/draggel_1440.jpg 2x" 
+      media="(min-width: 480px)"/>
+      <source srcset="images/draggel_320.jpg,
+            images/draggel_480.jpg 1.5x,
+            images/draggel_640.jpg 2x,
+            images/draggel_960.jpg 3x"
+         media="(min-width: 320px)" />
+         <img class="orig-img"
+         src="images/draggel.png"
+         alt="a small dragon holding a bagel, while sticking it's tongue out and laying on it's back">
+      </picture>   
       <h3>Graphic Design</h3>
       <p>From style guides and visuals, to font sets and templates, creating an identity to recognised through key elements.</p>
     </div> 
     <div class="centre">
-      <picture></picture>
+      <picture>
+        <source srcset="images/code_960.jpg,
+        images/code_1920.jpg 1.5x,
+        images/code_2880.jpg 2x"
+       media="(min-width: 960px)"/>
+
+      <source srcset="images/code_720.jpg,
+        images/code_1440.jpg 1.5x
+        images/code_2160.jpg 2x"
+       media="(min-width: 720px)"/>
+
+      <source srcset="images/code_480.jpg,
+           images/code_960.jpg 1.5x,
+           images/code_1440.jpg 2x" 
+      media="(min-width: 480px)"/>
+      <source srcset="images/code_320.jpg,
+            images/code_320.jpg 1.5x,
+            images/code_640.jpg 2x,
+            images/code_960.jpg 3x"
+         media="(min-width: 320px)" />
+        <img class="orig-img"
+        src="images/code.png"
+        alt="A preview of a site with a code editor tab open to the left, reveal different properties">
+      </picture>
       <h3>Coding</h3>
       <p>Applying concepts and bring together mockups and animation on an interactive platform.</p>
     </div>

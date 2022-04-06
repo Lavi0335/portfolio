@@ -123,6 +123,9 @@ span{
 article{
 	padding: var(--spacing20mobile);
 }
+.space{
+	padding: var(--spacing20mobile);
+}
 /* footer defaults */
 footer{
 	background-color: var(--dark-bg);
