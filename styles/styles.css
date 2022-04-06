@@ -104,6 +104,9 @@ button{
 .centre{
 	text-align: center;
 }
+.light{
+	color: var(--light-bg);
+}
 /* Header properties */
 header{
 	background-color: var(--dark-bg);
