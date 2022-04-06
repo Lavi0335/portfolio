@@ -88,6 +88,12 @@ h3{
 p{
 	font-family:'Ropa Sans', sans-serif;
 }
+img{
+	max-width: 100%;
+}
+.fullwidth, .fullwidth img{
+	width:100%;
+}
 /* Button styling */
 button{
 	background-color: var(--dark-bg);
@@ -134,10 +140,12 @@ footer{
 	background-color: var(--dark-bg);
 }
 /* Tablet media quiery */
+
 @media screen and (min-width:480px) and (max-width:960px){
 
 }
 /* Desktop media quiery */
+
 @media screen and (min-width:960px){
 
 }
