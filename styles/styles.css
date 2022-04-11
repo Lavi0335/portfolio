@@ -94,6 +94,11 @@ img{
 .fullwidth, .fullwidth img{
 	width:100%;
 }
+a{	
+	color: var(--light-bg);
+	font-family: 'Bebas Neue', cursive;
+	text-decoration: none;
+}
 /* Button styling */
 button{
 	background-color: var(--dark-bg);
@@ -139,13 +144,25 @@ article{
 footer{
 	background-color: var(--dark-bg);
 }
+/* footer element items */
+footer nav a{
+	font-family:'Ropa Sans', sans-serif;
+}
 /* Tablet media quiery */
 
 @media screen and (min-width:480px) and (max-width:960px){
+
 
 }
 /* Desktop media quiery */
 
 @media screen and (min-width:960px){
+.container{
+	/* Fixed width for tablet */
+	width: 1920px;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
 
+}
 }
