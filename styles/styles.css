@@ -118,6 +118,11 @@ button{
 .light{
 	color: var(--light-bg);
 }
+/* "button" placeholder style */
+.link{
+	background-color: var(--dark-bg);
+	color: var(--light-bg);
+}
 /* Header properties */
 header{
 	background-color: var(--dark-bg);
