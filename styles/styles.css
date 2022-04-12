@@ -99,6 +99,9 @@ a{
 	font-family: 'Bebas Neue', cursive;
 	text-decoration: none;
 }
+i{
+	color: var(--light-bg);
+}
 /* Button styling */
 button{
 	background-color: var(--dark-bg);
