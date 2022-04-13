@@ -182,6 +182,27 @@ footer{
 /* footer element items */
 footer nav a{
 	font-family:'Ropa Sans', sans-serif;
+	display: flex;
+	flex-direction:column;
+}
+.article{
+	padding: var(--spacing10between);
+	display: grid;
+	grid-template-areas: "p1 p2"
+						 "p3 p4"
+}
+.first{
+	color: var(--light-bg);
+	grid-area: p1;
+	align-self: center;
+}
+.second{
+ grid-area: p3;
+}
+.third{
+ text-align: center;
+ grid-area: p4;
+ 
 }
 /* special h1 spacing  for 40px set*/
 article > h1{
