@@ -91,6 +91,12 @@ h4{
 	font-family:'Ropa Sans', sans-serif;
 	font-weight: 600;
 }
+/* page end quote */
+.quota{
+	color:var(--dark-bg);
+	font-family: 'Teko', sans-serif;
+	font-size: 1.8em;
+}
 p{
 	font-family:'Ropa Sans', sans-serif;
 }
@@ -182,7 +188,7 @@ article > h1{
 	padding-top: var(--spacing10between);
 }
 /* general font padding */
-h2,h3,h4,p,a{
+h2,h3,h4,h5,p,a{
 	padding-top: var(--spacing5);
 	padding-bottom: var(--spacing5);
 }
