@@ -117,7 +117,7 @@ button{
 	font-size: 2.5em;
 	padding: var(--spacing10between);
 }
-/* Class specific CSS */
+/* ------------------Class specific CSS */
 .vibrant{
 	background-color: var(--vibrant);
 }
@@ -138,7 +138,10 @@ button{
 	flex-direction: row;
 	align-items: center;
 }
-/* Header properties */
+.left_spacer{
+	padding-left: var(--spacing10between);
+}
+/*---------------------- Header properties */
 header{
 	background-color: var(--dark-bg);
 	display: flex;
@@ -173,7 +176,7 @@ article > h1{
 	padding-top: var(--spacing10between);
 }
 /* general font padding */
-h2,h3,p,a{
+h2,h3,h4,p,a{
 	padding-top: var(--spacing5);
 	padding-bottom: var(--spacing5);
 }
