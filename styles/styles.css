@@ -162,6 +162,14 @@ footer{
 footer nav a{
 	font-family:'Ropa Sans', sans-serif;
 }
+/* special h1 spacing */
+article > h1{
+	padding-top: var(--spacing10between);
+}
+
+
+
+
 /* Tablet media quiery */
 
 @media screen and (min-width:480px) and (max-width:960px){
