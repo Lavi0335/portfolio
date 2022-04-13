@@ -198,6 +198,7 @@ footer nav a{
 .article{
 	padding: var(--spacing10between);
 	display: grid;
+	grid-template-columns: 1fr auto;
 	grid-template-areas: "p1 p2"
 						 "p3 p4"
 }
