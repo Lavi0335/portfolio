@@ -120,6 +120,12 @@ i{
 	padding-right: var(--spacing5);
 
 }
+label{
+	font-family:'Ropa Sans', sans-serif;
+}
+textarea{
+	height: 10em;
+}
 /* Button styling */
 .button{
 	background-color: var(--dark-bg);
