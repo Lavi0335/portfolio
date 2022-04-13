@@ -221,7 +221,7 @@ article > h1{
 	padding-top: var(--spacing10between);
 }
 /* general font padding */
-h2,h3,h4,h5,p,a{
+h2,h3,h4,h5,p,a,picture{
 	padding-top: var(--spacing5);
 	padding-bottom: var(--spacing5);
 }
