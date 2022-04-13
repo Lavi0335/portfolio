@@ -113,6 +113,11 @@ a{
 }
 i{
 	color: var(--light-bg);
+	font-size: 2em;
+	padding-bottom: var(--spacing5);
+	padding-left: var(--spacing5);
+	padding-right: var(--spacing5);
+
 }
 /* Button styling */
 .button{
@@ -133,6 +138,11 @@ i{
 }
 .light{
 	color: var(--light-bg);
+}
+.updated{
+	color: var(--light-bg);
+	font-size: 1.1em;
+	margin-bottom: var(--spacing10between) ;
 }
 /* text "button" style */
 .link{
@@ -202,7 +212,7 @@ footer nav a{
 .third{
  text-align: center;
  grid-area: p4;
- 
+ align-self: end;
 }
 /* special h1 spacing  for 40px set*/
 article > h1{
