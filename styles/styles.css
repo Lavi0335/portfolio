@@ -109,13 +109,14 @@ i{
 	color: var(--light-bg);
 }
 /* Button styling */
-button{
+.button{
 	background-color: var(--dark-bg);
 	font-family:'Bebas Neue', cursive;
 	color: var(--light-bg);
 	border: none;
 	font-size: 2.5em;
 	padding: var(--spacing10between);
+
 }
 /* ------------------Class specific CSS */
 .vibrant{
