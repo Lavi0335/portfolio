@@ -63,6 +63,7 @@ table {
 	--spacing10between: .625em;
 	--spacing20mobile: 1.25em;
 	--spacing40web: 2.5em;
+	--spacing5: .3215em;
 }
 /* Default Content Styling */
 body{
@@ -162,13 +163,18 @@ footer{
 footer nav a{
 	font-family:'Ropa Sans', sans-serif;
 }
-/* special h1 spacing */
+/* special h1 spacing  for 40px set*/
 article > h1{
 	padding-top: var(--spacing10between);
 }
-
-
-
+/* general font padding */
+h2,h3,p,a{
+	padding-top: var(--spacing5);
+	padding-bottom: var(--spacing5);
+}
+picture{
+	padding-top: var(--spacing5);
+}
 
 /* Tablet media quiery */
 
