@@ -121,10 +121,16 @@ button{
 .light{
 	color: var(--light-bg);
 }
-/* "button" placeholder style */
+/* text "button" style */
 .link{
 	background-color: var(--dark-bg);
 	color: var(--light-bg);
+}
+/* aligning return button and h1 */
+.row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 /* Header properties */
 header{
