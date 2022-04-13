@@ -131,6 +131,8 @@ button{
 .link{
 	background-color: var(--dark-bg);
 	color: var(--light-bg);
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2em;
 }
 /* aligning return button and h1 */
 .row{
