@@ -70,6 +70,7 @@ body{
     background-color: var(--light-bg);
 	margin: 0 auto;
 }
+
 /* Defining font size properties */
 h1{
     color: var(--dark-bg);
@@ -240,6 +241,16 @@ form input, form textarea, form label{
 	background: #1b0b263c;
 	border: none;
 }
+/* full  viewport*/
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+.container{
+	flex-grow: 1;
+}
+
 /* Tablet media quiery */
 
 @media screen and (min-width:480px) and (max-width:960px){
