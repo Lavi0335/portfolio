@@ -133,6 +133,9 @@ button{
 	color: var(--light-bg);
 	font-family: 'Bebas Neue', cursive;
 	font-size: 2em;
+	margin-top: var(--spacing5);
+	margin-bottom: var(--spacing5);
+	border-style: none;
 }
 /* aligning return button and h1 */
 .row{
@@ -185,7 +188,19 @@ h2,h3,h4,p,a{
 picture{
 	padding-top: var(--spacing5);
 }
-
+/* form adjustments */
+form{
+	display: flex;
+	flex-direction: column;
+}
+form input, form textarea, form label{
+	padding-top: var(--spacing5);
+	padding-bottom: var(--spacing5);
+}
+.faded{
+	background: #1b0b263c;
+	border: none;
+}
 /* Tablet media quiery */
 
 @media screen and (min-width:480px) and (max-width:960px){
