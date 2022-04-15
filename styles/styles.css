@@ -207,7 +207,7 @@ footer nav a{
 	display: grid;
 	grid-template-columns: 1fr auto;
 	grid-template-areas: "p1 p2"
-						 "p3 p3"
+						 "p3 p4";
 						 
 }
 .first{
@@ -261,6 +261,10 @@ body {
 /* Tablet media quiery */
 
 @media screen and (min-width:720px) and (max-width:960px){
+	/* quote padding */
+	h5{
+		padding-right: var(--spacing10between);
+	}
 	/* adjustments for the homepage ----------------------------*/
 .vibrant{
 	display: flex;
@@ -285,7 +289,16 @@ section .fullwidth{
 }
 .centre-3{
 	grid-area: p2;
-	align-self: center;
+	padding-left: var(--spacing10between);
+}
+/* aligining button and call to action */
+.vibrant{
+	justify-content: center;
+}
+.vibrant .centre{
+	display: flex;
+	align-items: center;
+
 }
 }
 
