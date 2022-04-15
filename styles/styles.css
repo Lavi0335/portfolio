@@ -207,7 +207,8 @@ footer nav a{
 	display: grid;
 	grid-template-columns: 1fr auto;
 	grid-template-areas: "p1 p2"
-						 "p3 p4"
+						 "p3 p3"
+						 
 }
 .first{
 	color: var(--light-bg);
@@ -259,10 +260,35 @@ body {
 
 /* Tablet media quiery */
 
-@media screen and (min-width:480px) and (max-width:960px){
-
-
+@media screen and (min-width:720px) and (max-width:960px){
+	/* adjustments for the homepage ----------------------------*/
+.vibrant{
+	display: flex;
 }
+/* tweaks to the padding */
+section .fullwidth{
+	padding-bottom: 0;
+}
+/* main content*/
+.organise{
+	display: grid;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: "p1 p2"
+						 "p3 p3"
+}
+.centre-1{
+	grid-area: p3;
+	align-self: center;
+}
+.centre-2{
+	grid-area: p1;
+}
+.centre-3{
+	grid-area: p2;
+	align-self: center;
+}
+}
+
 /* Desktop media quiery */
 
 @media screen and (min-width:960px){
