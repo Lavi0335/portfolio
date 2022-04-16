@@ -32,12 +32,16 @@ My portfolio was created using both CSS, HTMl and a reference to a mockup I crea
 
 ## What I learned
 
-Stuff, stuff and more stuff
+Stuff, stuff and more stuff.
+
+I learned the fr stands for free space, how to create a window with that has a responsive viewport of the website. As well, the picture tag is more ccomplexe, but will use images of ccertain widths to rezise responsively accord to the dimentions and viewports you set it without having loaded images hidden on the page, to save space. Animation and transition properties differ wwith timing and calculation, amd you need to add multipole properties for squash strech and motion within the animation.
 
 ---
 
 ## Assets Used (Bibliography)
 
-- First item (http://...)
-- Second item (http://...)
-- Third item (http://...)
+- Fonts obtained from (https://fonts.google.com/)
+- Symbols obtained from (https://fontawesome.com/)
+- CSS reset obtained from (https://meyerweb.com/eric/tools/css/reset/)
+- All other assets where hand coded and created by me unless indiucated otherwise.
+- W3 schools supplied great reference points when trying to figure things out, but the code itself was not copied
