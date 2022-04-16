@@ -300,6 +300,24 @@ section .fullwidth{
 	align-items: center;
 
 }
+/* About page */
+.rowr{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+p{
+	padding-left: var(--spacing10between);
+	font-size: 1.15em;
+}
+.off{
+	display: none;
+}
+picture{
+	padding-right: var(--spacing5);
+	padding-left: var(--spacing5);
+	align-self: center;
+}
+
 }
 
 /* Desktop media quiery */
