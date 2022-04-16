@@ -235,6 +235,10 @@ h2,h3,h4,h5,p,a,picture{
 picture{
 	padding-top: var(--spacing5);
 }
+/* hidden images */
+.roww{
+	display: none;
+}
 /* form adjustments */
 form{
 	display: flex;
@@ -305,8 +309,11 @@ section .fullwidth{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-p{
-	padding-left: var(--spacing10between);
+.roww{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+p, label{
 	font-size: 1.15em;
 }
 .off{
@@ -317,7 +324,27 @@ picture{
 	padding-left: var(--spacing5);
 	align-self: center;
 }
-
+/* contact page tweaks */
+.content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: "slot slot2"
+						" slot3 slot2";
+}
+.content p{
+	grid-area: slot;
+}
+.content form{
+	grid-area: slot3;
+}
+.content picture{
+	grid-area: slot2;
+	align-self: stretch;
+}
+.c2{
+	margin-left: var(--spacing10between);
+}
 }
 
 /* Desktop media quiery */
@@ -331,7 +358,88 @@ picture{
 	margin: 0 auto;
 
 }
+p, label{
+	font-size: 1.25em;
+}
+h3{
+	font-size: 1.65em;
+}
+	/* adjustments for the homepage ----------------------------*/
+	.vibrant{
+		display: flex;
+	}
 
+.organise{
+	display: grid;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: "p1 p2 p3"
+}
+.centre-1{
+	grid-area: p1;
+	align-self: center;
+}
+.centre-2{
+	grid-area: p2;
+	padding-left: var(--spacing10between);
+}
+.centre-3{
+	grid-area: p3;
+	padding-left: var(--spacing10between);
+}
+/* aligining button and call to action */
+.vibrant{
+	justify-content: center;
+}
+.vibrant .centre{
+	display: flex;
+	align-items: center;
+
+}
+.button{
+	margin-left: var(--spacing20mobile);
+}
+/* About------------------------------------------------- */
+.rowr{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.rowr > div{
+	align-self: center;
+}
+picture{
+	padding-right: var(--spacing5);
+	padding-left: var(--spacing5);
+	align-self: center;
+}
+.roww{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+/* contact page``````````````````````````````````````````````` */
+.content{
+	max-height: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas: "slot slot2"
+						" slot3 slot2";
+}
+
+.content p{
+	grid-area: slot;
+	align-self: center;
+}
+.content form{
+	grid-area: slot3;
+	align-self: start;
+}
+.content picture{
+	grid-area: slot2;
+	align-self: stretch;
+}
+.c2{
+	margin-left: var(--spacing40web);
+}
 }
 
 
