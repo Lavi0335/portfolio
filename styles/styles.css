@@ -364,6 +364,9 @@ p, label{
 h3{
 	font-size: 1.65em;
 }
+h4{
+	font-size: 1.5em;
+}
 	/* adjustments for the homepage ----------------------------*/
 	.vibrant{
 		display: flex;
