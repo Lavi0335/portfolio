@@ -14,30 +14,34 @@
 
 ## About the Project (How you created your web portfolio)
 
-Your text here
+My portfolio was created using both CSS, HTMl and a reference to a mockup I created in UX design for a personal porfolio to show future hiring managers. I wanted to display both my skills and work through a more complexe project so I could both understand and put into practice using the new cincewpts from this course, and feel comfortable enough with flexbox and grid.
 
 ### Challenges Faced 
 
-1. Challenge 1
-2. Challenge 2
-3. Challenge 3
+1. Getting images that properly resized, and learning if I needed to either tweak them manually or if there was settings in the code I could use.
+2. Findiing out why I had different widths when I set a fixed width for a media quiery.
+3. Trying to teach myself javascript for a dropdown menu.
 
 ### Overcoming Challenges
 
-1. Overcoming 1
-2. Overcoming 2
-3. Overcoming 3
+1. Playing around with the code and commenting out properties one by one, as well as changing heights to break down what effect was going on with each property, and resolving the problem from there.
+2. Visiting W3 schools, and clooking up coding tutorials, to reac about properties of the code (such as if the code is inline or block) and seeing how they attained certain effects to be able to customise the page to their liking.
+3. Asking for help and questions. That's why I came to every class, and I know it could seem a little tedious or I may not of even understood the reason behind the grade I got, but that is exactly why I asked you. If I don't understand or I think something wasn't what it appeared, I'll ask, but I will listen and I'm open to being in the wrong so I can understand better on why I didn't get it and know the true way to do something, or how to overcome it. So thank you for all your help Travis, I'm quite grateful to have been able to learn and understand many concepts that otherwise confused me in the first semester.
 
 ---
 
 ## What I learned
 
-Learning stuff
+Stuff, stuff and more stuff.
+
+I learned the fr stands for free space, how to create a window with that has a responsive viewport of the website. As well, the picture tag is more ccomplexe, but will use images of ccertain widths to rezise responsively accord to the dimentions and viewports you set it without having loaded images hidden on the page, to save space. Animation and transition properties differ wwith timing and calculation, amd you need to add multipole properties for squash strech and motion within the animation.
 
 ---
 
 ## Assets Used (Bibliography)
 
-- First item (http://...)
-- Second item (http://...)
-- Third item (http://...)
+- Fonts obtained from (https://fonts.google.com/)
+- Symbols obtained from (https://fontawesome.com/)
+- CSS reset obtained from (https://meyerweb.com/eric/tools/css/reset/)
+- All other assets where hand coded and created by me unless indiucated otherwise.
+- W3 schools supplied great reference points when trying to figure things out, but the code itself was not copied
