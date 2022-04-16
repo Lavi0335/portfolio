@@ -406,7 +406,7 @@ h3{
 .rowr > div{
 	align-self: center;
 }
-picture{
+.pic{
 	padding-right: var(--spacing5);
 	padding-left: var(--spacing5);
 	align-self: center;
