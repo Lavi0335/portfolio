@@ -352,7 +352,7 @@ picture{
 @media screen and (min-width:960px){
 .container{
 	/* Fixed width for tablet */
-	max-width: 1920px;
+	max-width: 1220px;
 	padding-left: 0;
 	padding-right: 0;
 	margin: 0 auto;
@@ -439,6 +439,9 @@ h3{
 }
 .c2{
 	margin-left: var(--spacing40web);
+}
+.textarea{
+	
 }
 }
 
