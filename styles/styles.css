@@ -168,10 +168,12 @@ textarea{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: center;
 }
 .left_spacer{
-	padding-left: var(--spacing10between);
+	margin-left: var(--spacing10between);
 }
+
 /*---------------------- Header properties */
 header{
   background-color: var(--dark-bg);	
