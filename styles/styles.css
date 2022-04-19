@@ -318,6 +318,9 @@ section .fullwidth{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
+.one{
+	display: none;
+}
 .roww{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -328,10 +331,22 @@ p, label{
 .off{
 	display: none;
 }
+.flow img{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
 picture{
 	padding-right: var(--spacing5);
 	padding-left: var(--spacing5);
 	align-self: center;
+}
+.two{
+	padding-right: var(--spacing5);
+
+}
+.three{
+	padding-left: var(--spacing5);
 }
 /* contact page tweaks */
 .content{
@@ -438,6 +453,22 @@ h4{
 .roww{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+.one{
+	padding-right: var(--spacing5);
+}
+.two{
+	padding-right: var(--spacing5);
+	padding-left: var(--spacing5);
+
+}
+.three{
+	padding-left: var(--spacing5);
+}
+.flow img{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
 }
 /* contact page``````````````````````````````````````````````` */
 .content{
