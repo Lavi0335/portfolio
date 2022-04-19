@@ -101,12 +101,14 @@ h4{
 p{
 	font-family:'Ropa Sans', sans-serif;
 }
+/* imgae specific details for entire width */
 img{
 	max-width: 100%;
 }
 .fullwidth, .fullwidth img{
 	width:100%;
 }
+/* default code resume for other values */
 a{	
 	color: var(--light-bg);
 	font-family: 'Bebas Neue', cursive;
@@ -360,6 +362,10 @@ picture{
 	padding-right: 0;
 	margin: 0 auto;
 
+}
+#nopad{
+	padding-top: none;
+	padding-bottom: none;
 }
 .hold{
 	max-width: 1920px;
