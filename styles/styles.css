@@ -347,12 +347,15 @@ picture{
 .content form{
 	grid-area: slot3;
 }
-.content picture{
+.content div{
 	grid-area: slot2;
 	align-self: stretch;
 }
-.c2{
+.c2 img{
 	margin-left: var(--spacing10between);
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
 }
 }
 
@@ -441,25 +444,30 @@ h4{
 	max-height: 400px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto auto;
+	grid-template-rows: 1fr auto;
 	grid-template-areas: "slot slot2"
 						" slot3 slot2";
+}
+.link{
+	margin-bottom: 0px;
 }
 
 .content p{
 	grid-area: slot;
-	align-self: center;
+	/* align-self: center; */
 }
 .content form{
 	grid-area: slot3;
 	align-self: start;
 }
-.content picture{
+.content div{
 	grid-area: slot2;
-	align-self: stretch;
 }
-.c2{
+.c2 img{
 	margin-left: var(--spacing40web);
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
 }
 }
 
