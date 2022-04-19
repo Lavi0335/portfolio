@@ -363,10 +363,7 @@ picture{
 	margin: 0 auto;
 
 }
-#nopad{
-	padding-top: none;
-	padding-bottom: none;
-}
+
 .hold{
 	max-width: 1920px;
 	padding-left: 0;
