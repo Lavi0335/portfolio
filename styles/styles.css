@@ -174,7 +174,7 @@ textarea{
 }
 /*---------------------- Header properties */
 header{
-background-color: var(--dark-bg);	
+  background-color: var(--dark-bg);	
 }
 .header{
 	
@@ -233,12 +233,14 @@ article > h1{
 	padding-top: var(--spacing10between);
 }
 /* general font padding */
-h2,h3,h4,h5,p,a,picture{
+h2,h3,h4,h5,p,a{
 	padding-top: var(--spacing5);
 	padding-bottom: var(--spacing5);
 }
-picture{
-	padding-top: var(--spacing5);
+/* picture special padding */
+.topbottom{
+	padding-top: var(--spacing10between);
+	padding-bottom: var(--spacing5);
 }
 /* hidden images */
 .roww{
@@ -425,6 +427,8 @@ h4{
 	padding-right: var(--spacing5);
 	padding-left: var(--spacing5);
 	align-self: center;
+	padding-top: var(--spacing5);
+	padding-bottom: var(--spacing5);
 }
 .roww{
 	display: grid;
