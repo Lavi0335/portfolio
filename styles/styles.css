@@ -406,7 +406,7 @@ h4{
 		display: flex;
 	}
 .centre-1 img{
-	height: auto;
+	max-height: 76.23%;
 }
 .organise{
 	display: grid;
