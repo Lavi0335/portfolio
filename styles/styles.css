@@ -395,7 +395,10 @@ picture{
 	margin: 0 auto;
 
 }
-
+footer{
+	padding-left: var(--spacing10between);
+	padding-right: var(--spacing10between);
+}
 .hold{
 	max-width: 1920px;
 	padding-left: 0;
@@ -418,9 +421,6 @@ h4{
 .centre-1 img{
 	max-height: 76.23%;
 	width: 100%;
-	
-}
-.centre .centre-2{
 	
 }
 .organise{
