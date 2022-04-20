@@ -229,6 +229,16 @@ footer nav a{
  text-align: center;
  grid-area: p4;
  align-self: end;
+ justify-self: center;
+}
+.line{
+	display: flex;
+}
+/* hiding text for the ahref in footer */
+.hidden{
+	line-height: 0; 
+    font-size: 0;
+    color: transparent; 
 }
 /* special h1 spacing  for 40px set*/
 article > h1{
