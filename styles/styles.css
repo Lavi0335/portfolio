@@ -138,6 +138,7 @@ textarea{
 	padding: var(--spacing10between);
 
 }
+
 /* ------------------Class specific CSS */
 .vibrant{
 	background-color: var(--vibrant);
