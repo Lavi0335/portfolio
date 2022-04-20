@@ -405,7 +405,9 @@ h4{
 	.vibrant{
 		display: flex;
 	}
-
+.centre-1 img{
+	height: auto;
+}
 .organise{
 	display: grid;
 	grid-template-rows: 1fr auto;
@@ -413,7 +415,6 @@ h4{
 }
 .centre-1{
 	grid-area: p1;
-	align-self: center;
 }
 .centre-2{
 	grid-area: p2;
