@@ -407,6 +407,11 @@ h4{
 	}
 .centre-1 img{
 	max-height: 76.23%;
+	width: 100%;
+	
+}
+.centre .centre-2{
+	
 }
 .organise{
 	display: grid;
@@ -415,6 +420,7 @@ h4{
 }
 .centre-1{
 	grid-area: p1;
+	;
 }
 .centre-2{
 	grid-area: p2;
